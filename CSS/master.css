@@ -523,6 +523,9 @@ html {
   .header .container .logo img {
     width: 225px;
   }
+  .contact .C-info .g-mail a {
+    font-size: 70px;
+  }
   .features .container {
     width: 956px;
   }
@@ -593,8 +596,6 @@ html {
     font-size: 41px;
     text-align: center;
   }
-  .contact .C-info .g-mail a {
-    font-size: 70px;
   .header .container .links .hover-links ul li a {
     font-size: 50px;
   }
@@ -610,6 +611,25 @@ html {
     gap: 30px;
   }
 }
+  /* Small */
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+    
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
   @media (max-width: 1199px) {
     .Services-columns .col .image {
       display: none;
@@ -632,21 +652,5 @@ html {
     .Portfolio .container .columns-portfolio .col-portfolio {
       margin-left: auto;
       margin-right: auto;
-    }
-  }
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-    
-  }
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
     }
   }
