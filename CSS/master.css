@@ -593,6 +593,8 @@ html {
     font-size: 41px;
     text-align: center;
   }
+  .contact .C-info .g-mail a {
+    font-size: 70px;
   .header .container .links .hover-links ul li a {
     font-size: 50px;
   }
