@@ -30,25 +30,6 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-  /* Small */
-  @media (min-width: 768px) {
-    .container {
-      width: 750px;
-    }
-    
-  }
-  /* Medium */
-  @media (min-width: 992px) {
-    .container {
-      width: 970px;
-    }
-  }
-  /* Large */
-  @media (min-width: 1200px) {
-    .container {
-      width: 1170px;
-    }
-  }
   /* End Global Ruls */
   /* Start Header */
   .header {
@@ -651,5 +632,21 @@ html {
     .Portfolio .container .columns-portfolio .col-portfolio {
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
     }
   }
